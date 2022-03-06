@@ -22,11 +22,6 @@
 
 
 .navbar{
-	position: fixed !important;
-	top: 0;
-	left: 0;
-	right: 0;
-	z-index: 1000;
 	background: var(--bg__clr) !important;
 }
 
@@ -39,7 +34,6 @@
 
 /* slide */
 .slide{
-	margin-top: 80px;
 }
 .container-fluid{
 	padding: 0 !important;
