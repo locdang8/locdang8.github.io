@@ -20,7 +20,9 @@
 	box-sizing: border-box;
 }
 
+body{
 
+}
 .navbar{
 	background: var(--bg__clr) !important;
 }
@@ -74,6 +76,12 @@
 }
 .introduce-review__msg>p{
 	font-size: 12px;
+}
+.navbar-dark .navbar-nav .nav-link{
+	font-size: 14px !important;
+}
+.form-control, .btn{
+	font-size: 0.8rem;
 }
 /* dich vu van chuyen */
 .home-service{
@@ -275,6 +283,7 @@ i{
 /*menu */
 .menu-list{
 	margin-top: 10px;
+	text-align: center;
 }
 .menu-title>p{
 	color: #bdb76f;
@@ -309,6 +318,12 @@ i{
 .data-image>img{
 	height: 200px;
 	object-fit: cover;
+}
+.news-data-item{
+	background: var(--bg__clr);
+	padding: 5px;
+	border: 2px solid #fff;
+	border-radius: 10px;
 }
 .news-data-item>img{
 	background: #ccc;
