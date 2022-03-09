@@ -189,5 +189,6 @@ function footer_add(){
                             <!-- end menu-list -->`
                             root.appendChild(footer)
 }
+
 header_add();
 footer_add();

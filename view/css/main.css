@@ -275,7 +275,7 @@ i{
 	height: 200px;
 	object-fit: cover;
 }
-.news-data-item>img{
+.advise-data-item>img ,.news-data-item>img{
 	background: #ccc;
 	height: 100px;
 }
@@ -319,15 +319,17 @@ i{
 	height: 200px;
 	object-fit: cover;
 }
-.news-data-item{
+.advise-data-item,.news-data-item{
 	background: var(--bg__clr);
 	padding: 5px;
 	border: 2px solid #fff;
 	border-radius: 10px;
 }
-.news-data-item>img{
+.advise-data-item img,.news-data-item img{
 	background: #ccc;
-	height: 100px;
+	height: 400px;
+	width = 100%;
+	object-fit: cover;
 }
 
 /*menu */
